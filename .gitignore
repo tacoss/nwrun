@@ -1,0 +1,13 @@
+*~
+*.zip
+*.tgz
+*.log
+.DS_Store
+
+/tmp
+/dist
+/reports
+/package
+/generated
+/node_modules
+/bower_components
