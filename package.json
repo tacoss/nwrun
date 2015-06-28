@@ -1,6 +1,6 @@
 {
   "name": "nwrun",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/runner.js",
   "description": "Hacky runner for Nightwatch CLI",
   "repository": {
@@ -12,7 +12,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "nightwatch": "^0.6.15"
+    "nightwatch": "^0.7.4"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
