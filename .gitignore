@@ -2,6 +2,8 @@
 *.zip
 *.tgz
 *.log
+*.jar
+*.xml
 .DS_Store
 
 /tmp

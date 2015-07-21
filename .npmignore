@@ -3,6 +3,8 @@
 *.zip
 *.tgz
 *.log
+*.jar
+*.xml
 
 README.md
 gulpfile.*
