@@ -9,8 +9,5 @@ node_js:
 - 0.1
 - 0.12
 - iojs
-before_script:
-- npm install -g grunt-cli
 script:
-- grunt eslint
 - npm run test -- --target saucelabs
