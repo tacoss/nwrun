@@ -10,4 +10,4 @@ node_js:
 - 0.12
 - iojs
 script:
-- npm run test -- --target saucelabs
+- node ./ci-tests/runner.js --target saucelabs

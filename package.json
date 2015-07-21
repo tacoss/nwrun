@@ -11,9 +11,6 @@
     "registry": "http://registry.npmjs.org"
   },
   "license": "MIT",
-  "scripts": {
-    "test": "node ./ci-tests/runner.js"
-  },
   "dependencies": {
     "nightwatch": "^0.7.9"
   },
