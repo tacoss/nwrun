@@ -10,6 +10,9 @@ nwrun({
   output_folder: __dirname + '/reports',
   test_settings: {
     saucelabs: {
+      silent: true,
+      selenium_host: 'localhost',
+      selenium_port: 4445,
       desiredCapabilities: {
         username: process.env.SAUCE_USERNAME,
         accessKey: process.env.SAUCE_ACCESS_KEY
