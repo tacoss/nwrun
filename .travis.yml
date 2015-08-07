@@ -9,5 +9,8 @@ node_js:
 - 0.1
 - 0.12
 - iojs
+before_script:
+- npm install -g grunt-cli
 script:
+- grunt spec
 - node ./ci-tests/runner.js --target saucelabs
