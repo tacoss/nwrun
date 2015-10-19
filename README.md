@@ -43,6 +43,7 @@ Is like running nightwatch but programmatically.
 - `jar_url` &mdash; custom endpoint for the downloading the selenium jar
 - `jar_path` &mdash; custom directory for saving the selenium jar locally
 - `jar_version` &mdash; custom version for the given `jar_url`, e.g. `2.45.0`
+- `config_path` &mdash; custom path for JSON settings and options, it can be overriden per target
 
 When done `callback(success)` will get executed.
 
