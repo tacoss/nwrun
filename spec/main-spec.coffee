@@ -70,12 +70,12 @@ describe 'Runner', ->
          expect(cmd.result.exitStatus).toBe 2
          done()
 
-    describe 'working example (--standalone)', ->
-      it 'may fail if when --standalone is not present', (done) ->
-        cmd
-          argv: ['--test', __dirname + '/fixtures/ok/bing.js', '--standalone']
-        , ->
-         #expect(cmd.result.stderr).toContain 'ECONNREFUSED'
-         #expect(cmd.result.exitStatus).toBe 2
-         #console.log cmd.result
-         done()
+    # describe 'working example (--standalone)', ->
+    #   it 'may fail if when --standalone is not present', (done) ->
+    #     cmd
+    #       argv: ['--test', __dirname + '/fixtures/ok/bing.js', '--standalone']
+    #     , ->
+    #      #expect(cmd.result.stderr).toContain 'ECONNREFUSED'
+    #      #expect(cmd.result.exitStatus).toBe 2
+    #      console.log cmd.result
+    #      done()
