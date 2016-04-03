@@ -12,3 +12,5 @@ node_js:
 script:
 - npm test
 - node ./ci-tests/runner.js --target saucelabs
+notifications:
+  email: false
