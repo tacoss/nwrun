@@ -53,18 +53,29 @@ describe 'Runner', ->
       expect(cmd.result.stdout).toContain 'ReferenceError: x is not defined'
 
   # TODO: improve this on CI
-  # describe 'on well defined modules?', ->
-  #   describe 'standalone = off', ->
-  #     beforeEach (done) ->
-  #       cmd
-  #         argv: ['--test', __dirname + '/fixtures/ok/google.js']
-  #       , done
+  describe 'CLI', ->
+    describe 'health check', ->
+      it 'may fail without arguments', (done) ->
+        cmd ->
+          expect(cmd.result.stderr).toContain 'Cannot read source folder'
+          expect(cmd.result.exitStatus).toBe 2
+          done()
 
-  #     it 'should fail', ->
-  #       expect(cmd.result.exitStatus).toBe 2
+    describe 'non working example', ->
+      it 'may fail if when --standalone is not present', (done) ->
+        cmd
+          argv: ['--test', __dirname + '/fixtures/ok/bing.js']
+        , ->
+         expect(cmd.result.stderr).toContain 'ECONNREFUSED'
+         expect(cmd.result.exitStatus).toBe 2
+         done()
 
-  #     it 'should print `Demo test Google`', ->
-  #       expect(cmd.result.stdout).toContain 'Demo test Google'
-
-  #     it 'should print `Error: connect ECONNREFUSED`', ->
-  #       expect(cmd.result.stderr).toContain 'Error: connect ECONNREFUSED'
+    describe 'working example (--standalone)', ->
+      it 'may fail if when --standalone is not present', (done) ->
+        cmd
+          argv: ['--test', __dirname + '/fixtures/ok/bing.js', '--standalone']
+        , ->
+         #expect(cmd.result.stderr).toContain 'ECONNREFUSED'
+         #expect(cmd.result.exitStatus).toBe 2
+         #console.log cmd.result
+         done()
