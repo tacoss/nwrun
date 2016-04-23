@@ -6,8 +6,9 @@ addons:
   sauce_connect: true
 language: node_js
 node_js:
-- 0.1
 - 0.12
+- 4
+- 5
 - iojs
 script:
 - npm test
