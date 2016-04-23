@@ -1,6 +1,6 @@
 {
   "name": "nwrun",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "main": "lib/runner.js",
   "description": "Hacky runner for Nightwatch CLI",
   "scripts": {
