@@ -24,9 +24,9 @@
   },
   "devDependencies": {
     "codecov": "^1.0.1",
-    "eslint": "^2.6.0",
-    "istanbul": "^0.4.2",
-    "jasmine-node": "^2.0.0-beta4",
+    "eslint": "^2.8.0",
+    "istanbul": "^0.4.3",
+    "jasmine-node": "^2.0.0",
     "minimist": "^1.2.0"
   }
 }
