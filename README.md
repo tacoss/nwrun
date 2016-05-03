@@ -30,6 +30,11 @@ Another interesting feature is the downloading of the `selenium-server-standalon
 
 Is like running nightwatch but programmatically.
 
+> Since `nwrun@0.2.0` the `nightwatch` is no longer a sub-dependency, instead `nwrun` will try to use a local or global version of `nightwatch`.
+>
+> Make sure you install `nightwatch` within your project (or globally) to avoid any issues.
+
+
 ## API
 
 `nwrun(options, callback)`
