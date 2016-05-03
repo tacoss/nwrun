@@ -20,7 +20,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "deduce": ">=0.0.1"
+    "deduct": ">=0.0.1"
   },
   "devDependencies": {
     "codecov": "^1.0.1",
