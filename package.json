@@ -19,9 +19,6 @@
     "registry": "http://registry.npmjs.org"
   },
   "license": "MIT",
-  "dependencies": {
-    "deduct": ">=0.0.1"
-  },
   "devDependencies": {
     "codecov": "^1.0.1",
     "eslint": "^2.8.0",
