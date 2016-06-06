@@ -23,7 +23,7 @@
     "codecov": "^1.0.1",
     "eslint": "^2.10.1",
     "istanbul": "^0.4.3",
-    "jasmine-node": "^2.0.0",
+    "jasmine-node": "2.0.0-beta4",
     "minimist": "^1.2.0",
     "nightwatch": "^0.8.18"
   }
