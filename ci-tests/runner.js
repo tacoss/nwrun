@@ -1,5 +1,5 @@
 var nwrun = require('../lib/runner'),
-    argv =  require('minimist')(process.argv.slice(2));
+  argv =  require('minimist')(process.argv.slice(2));
 
 nwrun({
   argv: argv,
@@ -14,7 +14,7 @@ nwrun({
       selenium_host: 'ondemand.saucelabs.com',
       selenium_port: 80,
       username: '${SAUCE_USERNAME}',
-      access_key: '${SAUCE_ACCESS_KEY}',
+      access_key: '${SAUCE_ACCESS_KEY}'
     }
   }
 }, function(done) {
