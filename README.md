@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/gextech/nwrun.svg?branch=master)](https://travis-ci.org/gextech/nwrun)
+[![Build Status](https://travis-ci.org/tacoss/nwrun.svg?branch=master)](https://travis-ci.org/tacoss/nwrun)
 
 Look ma', without `.json` files:
 
